@@ -1,4 +1,4 @@
-import 'src/css/Question.css'
+import '../css/Question.css'
 import {encode, decode} from 'html-entities';
 import { useState, useEffect } from 'react'
 
