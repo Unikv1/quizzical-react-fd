@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - mainhttps://github.com/Unikv1/quizzical-react-fdd
 
 jobs:
   build:
