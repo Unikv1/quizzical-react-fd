@@ -5,7 +5,10 @@ export default defineConfig({
 
   root: './',
   plugins: [react()],
-  base: '/quizzical-react-fd/'
+  base: '/quizzical-react-fd/',
+  css: {
+    devSourcemap: true
+  }
 
 });
 

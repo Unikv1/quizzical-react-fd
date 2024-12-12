@@ -1,6 +1,6 @@
-import '../css/Question.css'
+import '../css/Question.css';
 import {encode, decode} from 'html-entities';
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 
 export default function Question(props) {
     // console.log(props.questionObject.answers);
