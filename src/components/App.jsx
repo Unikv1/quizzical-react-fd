@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import '../css/App.css'
+import 'src\css\App.css'
 import { encode, decode } from 'html-entities';
 import Question from './Question.jsx'
 import background1 from '../assets/background_shape_1.png'
