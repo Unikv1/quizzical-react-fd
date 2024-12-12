@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
 
-  base: '/your-repository-name/',
-  plugins: [react]
+  base: '/quizzical-react/',
+  plugins: [react()]
 
 });
 
