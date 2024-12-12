@@ -1,0 +1,24 @@
+.correct {
+    background-color: #94D7A2;
+    opacity: 1;
+    border: 0;
+    pointer-events: none;
+    cursor: default;
+}
+
+
+.incorrect {
+    background-color: #F8BCBC;
+    opacity: 0.4;
+    pointer-events: none;
+    cursor: default;
+}
+
+.unclicked {
+    opacity: 0.4;
+}
+
+.clicked {
+    background-color: #D6DBF5;
+    border: 2px solid;
+}

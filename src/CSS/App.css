@@ -1,0 +1,183 @@
+.quizzical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  color: #293264;
+  margin: 25px;
+  padding-top: 100px;
+}
+
+.quizzical--title {
+  text-align: center;
+  height: 1ch;
+  margin: 0 auto;
+  font-size: 2rem;;
+}
+
+.quizzical--description {
+  padding: 20px;
+  line-height: 10px;;
+  font-weight: 300;
+  height: 1ch;
+  font-size: 1.25rem;
+}
+
+.quizzical--button {
+  cursor: pointer;
+  border: 0;
+  font-family: 'Karla';
+  font-size: 1.25rem;
+  padding: 15px;
+  width: 200px;
+  border-radius: 16px;
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  box-shadow: 0px 0px 0px rgba(20, 20, 20, 0) ;
+  transition: box-shadow 0.1s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  width: 10vw;
+}
+
+.quizzical--button:hover {
+  width: 210px;
+  transition: width 0.3s ease-in-out;
+}
+
+.quizzical--start:hover{
+  box-shadow: 0px 5px 10px rgba(20, 20, 20, 0.2) ;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.quizzical--background1 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.quizzical--background2 {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .quizzical--background1 {
+    width: 60%;
+  }
+  .quizzical--background2 {
+    width: 60%;
+  }
+  .quizzical--button {
+    cursor: pointer;
+    border: 0;
+    font-family: 'Karla';
+    font-size: 1.25rem;
+    padding: 15px;
+    width: 150px;
+    border-radius: 16px;
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    box-shadow: 0px 0px 0px rgba(20, 20, 20, 0) ;
+    transition: box-shadow 0.1s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+  }
+  .quizzical {
+    display: block;
+    height: 100%;
+    padding-bottom: 25px;
+  }
+  .quizzical--description {
+    display: flex;
+    justify-self: center;
+  }
+
+  .quizzical--questions {
+    width: 90vw !important;
+  }
+
+  .quizzical--answers--div {
+    display: block !important;
+  }
+
+  .quizzical form {
+    padding-bottom: 25px;
+  }
+  
+  
+}
+
+label input[type=radio] {
+  display: none;
+}
+
+.quizzical--answer:hover{
+  background-color: #D6DBF5;
+}
+
+
+
+.quizzical--questions {
+  width: 800px;
+}
+
+
+
+.quizzical--question--title {
+  color: #293264;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: end;
+  text-wrap: wrap;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+}
+
+.quizzical--answers--div {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.quizzical--answer {
+  grid-column: auto;
+  height: 100%;
+  color: #293264;
+  border: 1px solid #293264;
+  border-radius: 10px;
+  height: 1.5ch;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5px 20px 5px 20px;
+  font-size: 0.75rem;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-wrap: nowrap;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+hr.solid {
+  border-top: 1px solid #dbdef0;
+  border-bottom: 0px solid;
+  border-radius: 1px;
+  margin: 0px;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
