@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Unikv1.github.io/quizzical-react-fd",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
