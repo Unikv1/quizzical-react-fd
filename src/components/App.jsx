@@ -143,7 +143,7 @@ function App() {
       {!start && (
         <>
           <h1 className='quizzical--title'> Quizzical </h1>
-          <h2 className='quizzical--description'> Click on start and answer all 5 questions! </h2>
+          <h2 className='quizzical--description'> Answer all questions, how much do you know? Click the button below whenever you're ready. </h2>
           <button className='quizzical--button' onClick={() => setStart(true)}> Start quiz</button>
         </>
       )} 
