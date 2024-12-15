@@ -19,6 +19,9 @@
   padding: 20px;
   line-height: 10px;;
   font-weight: 300;
+  width: 500px;
+  text-align: center;
+  line-height: 1.5ch;
   height: 1ch;
   font-size: 1.25rem;
 }
@@ -113,6 +116,18 @@
   .quizzical form {
     padding-bottom: 25px;
   }
+  .quizzical--description {
+    padding: 20px;
+    line-height: 10px;;
+    font-weight: 300;
+    width: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 1.5ch;
+    height: 1ch;
+    font-size: 1.25rem;
+  }
+  
   
   
 }
